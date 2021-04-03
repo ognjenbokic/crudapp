@@ -8,8 +8,8 @@ class PagesController extends Controller
 {
   
     public function pocetnastr(){
-        $naslov = 'Dobrodosli na pocetnu stranu';
-        return view('stranice.pocetna')->with('naslovpocstrane', $naslov);
+        
+        return view('stranice.pocetna');
     }
 
     public function service(){
